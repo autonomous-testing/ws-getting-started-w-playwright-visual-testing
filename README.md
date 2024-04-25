@@ -82,3 +82,6 @@ Share it with us: https://github.com/orgs/Wopee-io/discussions/new?category=idea
 
 Do you have any questions or need help?
 Ask us here: https://github.com/orgs/Wopee-io/discussions/new?category=q-a
+
+Would you like to help us improve Wopee.io?
+PRs are welcome here: https://github.com/autonomous-testing/ws-getting-started-w-playwright-visual-testing/pulls
