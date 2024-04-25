@@ -2,6 +2,13 @@
 
 ## Setup
 
+### Set up Wopee.io
+
+- Navigate to https://cmd.wopee.io/
+- Create an account (autoregistration with GitHub is available and recommended)
+- Create a new **integration** project
+- Create a new API key for the project
+
 ### Set up VS Code and Playwright
 
 - Install Node.js: https://nodejs.org/en/download/
@@ -80,11 +87,11 @@ npm i
 
 ## Next steps
 
-Do you have any idea how to improve this workshop or Wopee.io?
-Share it with us: https://github.com/orgs/Wopee-io/discussions/new?category=ideas
+- Do you have any idea how to improve this workshop or Wopee.io?
+  Share it with us: https://github.com/orgs/Wopee-io/discussions/new?category=ideas
 
-Do you have any questions or need help?
-Ask us here: https://github.com/orgs/Wopee-io/discussions/new?category=q-a
+- Do you have any questions or need help?
+  Ask us here: https://github.com/orgs/Wopee-io/discussions/new?category=q-a
 
-Would you like to help us improve Wopee.io?
-PRs are welcome here: https://github.com/autonomous-testing/ws-getting-started-w-playwright-visual-testing/pulls
+- Would you like to help us improve Wopee.io?
+  PRs are welcome here: https://github.com/autonomous-testing/ws-getting-started-w-playwright-visual-testing/pulls
