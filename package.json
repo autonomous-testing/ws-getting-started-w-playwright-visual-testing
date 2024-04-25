@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@wopee-io/wopee.pw": "^3.0.1"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  }
+}

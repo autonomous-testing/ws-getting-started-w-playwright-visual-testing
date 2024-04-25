@@ -1,0 +1,16 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+.DS_Store
+
+*-snapshots
+
+.env
+
+# Many teams store baselines in git. 
+# Even it solves versioning it also introduce couple of issues like git/repo performance, dificulty to archive/remove 
+# baselines which are not needed any more, etc. 
+baselines
