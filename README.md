@@ -2,6 +2,11 @@
 
 ## Setup
 
+### Set up VS Code and Playwright
+
+- Install Node.js: https://nodejs.org/en/download/
+- Set up VS Code and Playwright: https://playwright.dev/docs/getting-started-vscode
+
 ### Clone this repository
 
 In VS code: Ctrl+Shift+P -> Git: Clone -> link to this repository
