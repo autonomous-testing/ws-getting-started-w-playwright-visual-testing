@@ -19,10 +19,13 @@ https://github.com/autonomous-testing/ws-getting-started-w-playwright-visual-tes
 
 ```shell
 export WOPEE_API_KEY=your_api_key
+```
+
+```shell
 export GITHUB_TOKEN=your_github_token
 ```
 
-Get your `WOPEE_API_KEY` from Wopee.io commander. The `GITHUB_TOKEN` will be provided during the workshop.
+Get your `WOPEE_API_KEY` from Wopee.io commander (Navigate to project > Project Settings > API KEYS tab > Create new key). The `GITHUB_TOKEN` will be provided during the workshop.
 
 ### Install node dependencies
 
