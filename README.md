@@ -74,3 +74,11 @@ npm i
 - More options for visual testing, more complex scenario example: `npx playwright test tests/3-more.spec.ts`
 
 12. Other ideas (slides).
+
+## Next steps
+
+Do you have any idea how to improve this workshop or Wopee.io?
+Share it with us: https://github.com/orgs/Wopee-io/discussions/new?category=ideas
+
+Do you have any questions or need help?
+Ask us here: https://github.com/orgs/Wopee-io/discussions/new?category=q-a
