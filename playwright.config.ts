@@ -33,6 +33,8 @@ export default defineConfig({
   },
 
   timeout: 90000,
+  // https://playwright.dev/docs/api/class-testconfig#test-config-report-slow-tests
+  reportSlowTests: { max: 5, threshold: 60000 },
 
   /* Configure projects for major browsers */
   projects: [
