@@ -34,7 +34,7 @@ test.describe("Example w. Wopee.io", () => {
     await wopee.startScenario(testInfo.title);
     await page.goto(baseUrl);
 
-    await wopee.trackFullPageScreenshot(page, "Navigate to home page");
+    await wopee.trackFullPageScreenshot(page, "Navigate to gallery page");
 
     page.click("a >> text=Sign in");
     await wopee.trackFullPageScreenshot(page, "Navigate to login screen");
