@@ -2,6 +2,7 @@
   "type": "module",
   "devDependencies": {
     "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4",
     "@wopee-io/wopee.pw": "^4.4.0"
   },
   "scripts": {
