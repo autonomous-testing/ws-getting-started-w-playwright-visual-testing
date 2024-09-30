@@ -5,11 +5,12 @@ let wopee = new Wopee();
 const baseUrl = "https://dronjo.wopee.io";
 
 test.describe("Example w. Wopee.io", () => {
-  test("Home", async ({ page }, testInfo) => {
+  test("Home page test", async ({ page }, testInfo) => {
     await page.goto(baseUrl);
+
     await wopee.trackFullPage({
       page,
-      stepName: `Home page - ${testInfo.project.name}`,
+      stepName: `Landing page (${testInfo.project.name})`,
       scenarioName: testInfo.title,
       suiteName: testInfo.project.name,
     });
