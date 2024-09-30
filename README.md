@@ -5,7 +5,7 @@
 ### Set up Wopee.io
 
 - Navigate to https://cmd.wopee.io/
-- Create an account (autoregistration with GitHub is available and recommended)
+- Create an account (auto-registration with GitHub is available and recommended)
 - Create a new **integration** project
 - Create a new API key for the project
 
@@ -28,11 +28,7 @@ https://github.com/autonomous-testing/ws-getting-started-w-playwright-visual-tes
 export WOPEE_API_KEY=your_api_key
 ```
 
-```shell
-export GITHUB_TOKEN=your_github_token
-```
-
-Get your `WOPEE_API_KEY` from Wopee.io commander (Navigate to project > Project Settings > API KEYS tab > Create new key). The `GITHUB_TOKEN` will be provided during the workshop.
+Get your `WOPEE_API_KEY` from Wopee.io commander (Navigate to project > Project Settings > API KEYS tab > Create new key).
 
 ### Install node dependencies
 
@@ -70,7 +66,7 @@ npm i
 9. First test with Wopee.io: `npx playwright test tests/w1-basics.spec.ts`
 
 - Wopee.io Commander: https://cmd.wopee.io/
-- Make sure keys (`WOPEE_API_KEY` and `GITHUB_TOKEN`) are set up correctly
+- Make sure key `WOPEE_API_KEY` is set up correctly
 
 10. Working with Wopee.io commander:
 
@@ -90,10 +86,10 @@ npm i
 - Learn more from our blog: [Getting Started with Playwright Visual Testing](https://wopee.io/blog/getting-started-with-playwright-visual-testing)
 
 - Do you have any idea how to improve this workshop or Wopee.io?
-  Share it with us: https://github.com/orgs/Wopee-io/discussions/new?category=ideas
+  [Share it with us](https://github.com/orgs/Wopee-io/discussions/new?category=ideas)
 
 - Do you have any questions or need help?
-  Ask us here: https://github.com/orgs/Wopee-io/discussions/new?category=q-a
+  [Ask us here](https://github.com/orgs/Wopee-io/discussions/new?category=q-a)
 
 - Would you like to help us improve Wopee.io?
-  PRs are welcome here: https://github.com/autonomous-testing/ws-getting-started-w-playwright-visual-testing/pulls
+  [PRs are welcome here](https://github.com/autonomous-testing/ws-getting-started-w-playwright-visual-testing/pulls)
