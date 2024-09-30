@@ -9,7 +9,7 @@ test.describe("Example w. Wopee.io", () => {
     await page.goto(baseUrl);
     await wopee.trackFullPage({
       page,
-      stepName: "Home page",
+      stepName: `Home page - ${testInfo.project.name}`,
       scenarioName: testInfo.title,
       suiteName: testInfo.project.name,
     });
