@@ -87,6 +87,8 @@ npm i
 
 ## Next steps
 
+- Learn more from our blog: [Getting Started with Playwright Visual Testing](https://wopee.io/blog/getting-started-with-playwright-visual-testing)
+
 - Do you have any idea how to improve this workshop or Wopee.io?
   Share it with us: https://github.com/orgs/Wopee-io/discussions/new?category=ideas
 
