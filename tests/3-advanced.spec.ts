@@ -85,7 +85,7 @@ test("Dronjo gallery page - visual test", async ({ page }) => {
 
 //
 //
-// Usefull links:
+// Useful links:
 //
 // - toHaveScreenshot(name) API https://playwright.dev/docs/api/class-pageassertions#page-assertions-to-have-screenshot-1
 // - Caret explanation https://developer.mozilla.org/en-US/docs/Glossary/Caret, https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color
