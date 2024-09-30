@@ -14,16 +14,18 @@ test.describe("Example w. Wopee.io", () => {
     await wopee.startScenario(testInfo.title);
     await page.goto(baseUrl);
 
-    await wopee.trackFullPageScreenshot(page, testInfo.title);
+    await wopee.trackFullPage({ page, stepName: testInfo.title });
 
-    await wopee.trackFullPageScreenshot(page, testInfo.title, {
-      browser: testInfo.project.name,
+    await wopee.trackFullPage({
+      page,
+      stepName: testInfo.title,
+      // browser: testInfo.project.name,
       // Other available params:
       // os: "macOs",
       comment: "This is a test: https://wopee.io/ ",
       customTags: "prio 1",
       // pixelToPixelDiffTolerance: 100,
-      device: "desktop",
+      // device: "desktop",
       viewport: "1920x1080",
     });
 
@@ -34,19 +36,19 @@ test.describe("Example w. Wopee.io", () => {
     await wopee.startScenario(testInfo.title);
     await page.goto(baseUrl);
 
-    await wopee.trackFullPageScreenshot(page, "Navigate to gallery page");
+    await wopee.trackFullPage({ page, stepName: "Navigate to gallery page" });
 
     page.click("a >> text=Sign in");
-    await wopee.trackFullPageScreenshot(page, "Navigate to login screen");
+    await wopee.trackFullPage({ page, stepName: "Navigate to login screen" });
 
     page.getByPlaceholder("Username").fill("marcel.veselka@tesena.com");
-    await wopee.trackFullPageScreenshot(page, "Fill in username");
+    await wopee.trackFullPage({ page, stepName: "Fill in username" });
 
     page.getByPlaceholder("Password").fill("abc1234");
-    await wopee.trackFullPageScreenshot(page, "Fill in password");
+    await wopee.trackFullPage({ page, stepName: "Fill in password" });
 
     page.click("button >> text=Sign in");
-    await wopee.trackFullPageScreenshot(page, "Submit login form");
+    await wopee.trackFullPage({ page, stepName: "Submit login form" });
 
     await wopee.stopScenario();
   });

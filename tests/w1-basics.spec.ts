@@ -14,7 +14,7 @@ test.describe("Example w. Wopee.io", () => {
     await wopee.startScenario(testInfo.title);
 
     await page.goto(baseUrl);
-    await wopee.trackFullPageScreenshot(page, "Home page");
+    await wopee.trackFullPage({ page, stepName: "Home page" });
 
     await wopee.stopScenario();
   });

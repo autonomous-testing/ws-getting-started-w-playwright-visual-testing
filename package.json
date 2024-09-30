@@ -1,8 +1,8 @@
 {
   "type": "module",
   "devDependencies": {
-    "@playwright/test": "^1.43.1",
-    "@wopee-io/wopee.pw": "^3.0.1"
+    "@playwright/test": "^1.47.2",
+    "@wopee-io/wopee.pw": "^4.4.0"
   },
   "scripts": {
     "test": "playwright test",

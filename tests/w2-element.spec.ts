@@ -14,11 +14,8 @@ test.describe("Example w. Wopee.io", () => {
     await wopee.startScenario(testInfo.title);
     await page.goto(baseUrl);
 
-    const screenshot = await page
-      .locator(".navbar-brand img")
-      .screenshot({ type: "png" });
-    const imageBase64 = screenshot.toString("base64");
-    await wopee.trackImage(`logo`, imageBase64);
+    const locator = page.locator(".navbar-brand img");
+    await wopee.trackElement({ stepName: `logo`, locator });
 
     await wopee.stopScenario();
   });
